@@ -1,0 +1,18 @@
+{
+  "name": "jquery-pdfjs-viewer",
+  "version": "1.0.0",
+  "description": "A simple jQuery PDF.js viewer",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 8080\" \"start http://localhost:8080/\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
